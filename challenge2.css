@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  font-family: Montserrat;
+  color: #282828;
+}
+header {
+  padding: 15px;
+  background-color: #efb7b7;
+  color: whitesmoke;
+}
+ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  gap: 10px;
+  padding: 25px;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: 400;
+  margin: 30px 25px;
+}
+
+.icon {
+  width: 25px;
+  color: white;
+}
+.item-img {
+  width: 100%;
+}
+
+.align-right {
+  margin-left: auto;
+}
