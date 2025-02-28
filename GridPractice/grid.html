@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    .grid-testimonial {
+      display: grid;
+      grid-template-areas:
+        "one"
+        "two"
+        "three"
+        "four"
+        "five"
+        "six"
+        "seven"
+        "eight";
+      gap: 20px;
+    }
+
+    .grid-utility {
+      font-size: 1.3rem;
+      padding: 1em;
+    }
+    .item-1 {
+      background-color: #9fe05e;
+      grid-area: one;
+    }
+    .item-2 {
+      background-color: #fbaaaa;
+      grid-area: two;
+    }
+    .item-3 {
+      background-color: #5ed9e0;
+      grid-area: three;
+    }
+    .item-4 {
+      background-color: #adb1a9;
+      grid-area: four;
+    }
+    .item-5 {
+      background-color: #e0d55e;
+      grid-area: five;
+    }
+    .item-6 {
+      background-color: #f13c7b42;
+      grid-area: six;
+    }
+    .item-7 {
+      background-color: #86a7ee;
+      grid-area: seven;
+    }
+    .item-8 {
+      background-color: #ee9a80;
+      grid-area: eight;
+    }
+    .item-9 {
+      background-color: #90e0ea;
+    }
+    .item-10 {
+      background-color: #cfe05e68;
+    }
+    .item-11 {
+      background-color: #7d165b;
+    }
+    .item-12 {
+      background-color: #068075;
+    }
+
+    @media (min-width: 680px) {
+      .grid-testimonial {
+        grid-template-areas:
+          "one one two"
+          " three four four"
+          "five five six"
+          "seven eight eight";
+      }
+    }
+  </style>
+  <body>
+    <div class="grid-testimonial">
+      <div class="item-1 grid-utility">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio rem
+        repudiandae quisquam ratione nesciunt sunt modi porro libero tempora,
+        neque repellendus praesentium autem asperiores magnam illum facilis
+        molestiae, quae earum.
+      </div>
+      <div class="item-2 grid-utility">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur
+        odio doloribus laboriosam incidunt itaque optio, delectus excepturi,
+        inventore vel culpa placeat, voluptates officiis unde deserunt at
+        voluptas repudiandae tenetur asperiores! Lorem ipsum dolor sit amet,
+        consectetur adipisicing elit. Reprehenderit porro doloremque
+        perspiciatis ab. Nesciunt porro non quibusdam ipsa maxime fugiat
+        eligendi? Natus quibusdam ipsum nemo perferendis, fugit numquam porro
+        tempora.
+      </div>
+      <div class="item-3 grid-utility">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, magni
+        necessitatibus at voluptatibus ut tempora, ullam non veniam similique
+        possimus exercitationem sed atque itaque? Quod soluta animi optio quo
+        consectetur.
+      </div>
+      <div class="item-4 grid-utility">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste
+        praesentium distinctio asperiores necessitatibus ipsam id nisi ipsa
+        suscipit sunt, blanditiis, laudantium soluta nesciunt autem mollitia
+        aliquid dignissimos omnis delectus vero!
+      </div>
+      <div class="item-5 grid-utility grid-col-span-2">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem labore,
+        velit quas consectetur obcaecati molestias hic dignissimos neque facilis
+        ad, veritatis quos aspernatur voluptatum incidunt saepe delectus alias.
+        Distinctio, dolor. Lorem ipsum dolor sit amet consectetur adipisicing
+        elit. Possimus architecto at adipisci. Asperiores eaque atque unde
+        veritatis quos veniam, tempora nemo repellat quis perferendis incidunt
+        deleniti ea ad minima nisi. Lorem ipsum dolor sit, amet consectetur
+        adipisicing elit. Omnis fugiat asperiores esse iure ipsum dolor quia a
+        at recusandae voluptatibus accusamus sit voluptas repellat quasi aperiam
+        odit, cumque quam minus.
+      </div>
+      <div class="item-6 grid-utility">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis
+        sequi sapiente fugit, eaque error itaque tempora doloribus dignissimos
+        impedit animi veritatis molestiae aperiam laboriosam nihil labore modi
+        recusandae deleniti? Nisi.
+      </div>
+      <div class="item-7 grid-utility">G</div>
+      <div class="item-8 grid-utility grid-ro-span-2">H</div>
+      <!-- <div class="item-9 grid-utility">I</div>
+      <div class="item-10 grid-utility">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi
+        delectus ullam ea dicta corporis nesciunt veritatis amet dolore
+        consectetur similique itaque, deserunt, maxime recusandae voluptates,
+        fuga ab? Iure, asperiores architecto.
+      </div>
+      <div class="item-11 grid-utility">K</div>
+      <div class="item-12 grid-utility">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus ipsa
+        vitae eveniet dolor. Recusandae error dolores ipsa sequi! Nam totam
+        exercitationem sed voluptatum eos placeat mollitia molestiae facilis
+        asperiores ea!
+      </div> -->
+    </div>
+  </body>
+</html>
