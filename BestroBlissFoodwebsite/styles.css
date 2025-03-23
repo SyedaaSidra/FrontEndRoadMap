@@ -1,0 +1,152 @@
+:root {
+  --clr-surface: #f9f9f7;
+  --clr-primary: #ad343e;
+  --clr-on-primary: #ffffff;
+  --clr-footer-surface: #474747;
+  --clr-on-footer-surface: #dbdfd0;
+  --clr-main-headings: #2c2f24;
+  --clr-body-text: #414536;
+  --clr-date-text: #737865;
+
+  --fw-regular: 400;
+  --fw-semi-bold: 500;
+  --fw-bold: 700;
+
+  --ff-heading: "Playfair Display", serif;
+  --ff-body: "DM Sans", sans-serif;
+
+  --fs-300: 0.875rem;
+  --fs-330: 1rem;
+  --fs-400: 1.125rem;
+  --fs-500: 1.25rem;
+  --fs-600: 1.5rem;
+  --fs-700: 3.4375rem;
+  --fs-900: 6.25rem;
+}
+
+@media (min-width: 50em) {
+  :root {
+    --fs-dateformat: var(--fs-300);
+    --fs-body-330: var(--fs-330);
+    --fs-body-400: var(--fs-400);
+    --fs-primary-heading: var(--fs-900);
+    --fs-secondary-heading: var(--fs-700);
+    --fs-tertiary-heading: var(--fs-600);
+    --fs-DelivaryTime: var(--fs-500);
+  }
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+
+ul[role="list"],
+ol[role="list"] {
+  list-style: none;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+img,
+picture,
+svg {
+  max-width: 100%;
+  display: block;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role="list"],
+ol[role="list"] {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.hero-section {
+  background-image: url(images/Hero.png);
+}
+
+/* Utility Classes */
+
+.bg-clr-btn {
+  background-color: var(--clr-primary);
+}
+.bg-clr-body {
+  background-color: var(--clr-surface);
+}
+.bg-clr-footer {
+  background-color: var(--clr-footer-surface);
+}
+.bg-clr-card {
+  background-color: var(--clr-on-primary);
+}
+.clr-footer-text {
+  color: var(--clr-on-footer-surface);
+}
+.clr-btn-text {
+  color: var(--clr-on-primary);
+}
+.clr-main-headings {
+  color: var(--clr-main-headings);
+}
+.clr-menu-nav {
+  color: var(--clr-primary);
+}
+.clr-body-text {
+  color: var(--clr-body-text);
+}
+.clr-date-text {
+  color: var(--clr-date-text);
+}
+.fw-regular {
+  font-weight: var(--fw-regular);
+}
+.fw-semi-bold {
+  font-weight: var(--fw-semi-bold);
+}
+.fw-bold {
+  font-weight: var(--fw-bold);
+}
+
+.ff-heading {
+  font-family: var(--ff-heading);
+}
+
+.ff-body {
+  font-family: var(--ff-body);
+}
+.fs-300 {
+  font-size: var(--fs-300);
+}
+
+.fs-330 {
+  font-size: var(--fs-330);
+}
+.fs-400 {
+  font-size: var(--fs-400);
+}
+.fs-500 {
+  font-size: var(--fs-500);
+}
+.fs-600 {
+  font-size: var(--fs-600);
+}
+.fs-700 {
+  font-size: var(--fs-700);
+}
+.fs-900 {
+  font-size: var(--fs-900);
+}
